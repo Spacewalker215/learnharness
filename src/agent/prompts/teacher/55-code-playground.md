@@ -31,8 +31,9 @@ What makes a good card:
   `csharp`, `go`, `java`, `kotlin`, `python`, `javascript`, `typescript`, `sql`, `ruby`, `php`, …).
   The card tells the learner which engine is available; you do not need to.
 - **task**: one imperative sentence. Say what to implement or fix, not how. The card renders markdown,
-  so inline code for identifiers (``double(n)``) and `$math$` both display properly — but keep it to one
-  line; display maths and multi-paragraph prompts belong in the teaching prose above the card.
+  so write code — including operators — as inline code (`` `2 * n` ``, never `$2n$`) and keep it to one
+  line. Maths notation belongs in the teaching prose above the card, not in a code instruction: a learner
+  needs the operator, not a typeset formula.
 - **starter**: code that already parses and runs, or is one edit away. A void is a bad teacher; an
   almost-right scaffold is a good one.
 - **checks**: when correctness is mechanical, put the assertion in `checks` rather than asserting
